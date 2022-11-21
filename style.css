@@ -1,0 +1,67 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    word-spacing: 0.24rem;
+}
+
+.container {
+/* From https://css.glass */
+
+color: white;
+height: auto;
+width: 50rem;
+
+background: rgba(255, 255, 255, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6.6px);
+-webkit-backdrop-filter: blur(6.6px);
+border: 1px solid rgba(255, 255, 255, 0.121);
+margin-bottom: 40px;
+
+padding: 16px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+.parallax {
+  /* The image used */
+  background-image: url('https://images.unsplash.com/photo-1511300636408-a63a89df3482?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.heading{
+    color:wheat;
+    text-align: center;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.mainHeading{
+  font-size: 3rem;
+  padding: .5rem;
+  color: aliceblue;
+
+}
+.name{
+  color: aliceblue;
+  padding: .7rem;
+  text-align: start;
+}
